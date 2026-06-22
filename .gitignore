@@ -1,0 +1,103 @@
+# Rust
+/target/
+**/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+**/test_snapshots/
+contracts/medical_records/test_snapshots/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Soroban
+.soroban/
+*.wasm
+*.wasm.old
+
+# Testing
+/coverage/
+lcov.info
+*.profraw
+
+# Documentation
+/docs/book/
+
+# Generated complexity reports (issue #481 — run ./scripts/complexity_score.sh)
+dashboard/data/complexity_report.json
+dashboard/data/complexity_trends.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Local configuration
+local_config.toml
+secrets.toml
+
+# Stellar / Soroban CLI binaries & tarballs
+stellar-cli.tar.gz
+stellar
+soroban
+
+# Deployment files (keep structure, ignore sensitive data)
+deployments/*_backup_*.json
+deployments/alerts.log
+deployments/*.tmp
+
+CLAUDE.md
+plan.md
